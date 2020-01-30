@@ -173,7 +173,7 @@ a{
     }
     .title{
         justify-content: center;
-        width:60%
+        width:60%;
         margin: 5%;
     }
     .top-img {
@@ -184,8 +184,14 @@ a{
 @media (max-width: 500px){
     .navigation{
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        justify-content: space-between;
+        
+    }
+    .tag{
+        padding: 20px 2500px;
+        margin: 
+        border: solid grey;
     }
     .first{
         flex-direction: column;
